@@ -30,10 +30,10 @@ export default class Navbar extends Component {
             <input type="text" className="form-control gitInputForm" placeholder="Enter a language or library to Get Started" ref='langlib'/>
           </div>
           <div className="col-xs-6">
-            <Link to='topRepo' className="git-btn" onClick={this.searchByLanguage}>Find Top Repos</Link>
+            <Link to='GitHub_Search/topRepo' className="git-btn" onClick={this.searchByLanguage}>Find Top Repos</Link>
           </div>
           <div className="col-xs-6">
-            <Link to='topUser' className="git-btn" onClick={this.searchByUser}>Find Top Developers</Link>
+            <Link to='GitHub_Search/topUser' className="git-btn" onClick={this.searchByUser}>Find Top Developers</Link>
           </div>
         </div>
         {this.props.children}

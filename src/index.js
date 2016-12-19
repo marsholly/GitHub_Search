@@ -8,7 +8,7 @@ import TopUserBoard from './components/TopUserBoard';
 
 render(
   <Router history = {browserHistory}>
-    <Route path = '/' component = {Navbar}>
+    <Route path = '/GitHub_Search/' component = {Navbar}>
       <Route path = 'topRepo' component = {TopRepoBoard} />
       <Route path = 'topUser' component = {TopUserBoard} />
     </Route>
