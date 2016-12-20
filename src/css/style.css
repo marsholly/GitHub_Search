@@ -13,9 +13,9 @@ a {
   color: white;
 }
 
-a:hover, 
-a:visited, 
-a:hover, 
+a:hover,
+a:visited,
+a:hover,
 a:active {
   text-decoration: none !important;
   color: white;
@@ -75,7 +75,7 @@ a:active {
   background-color: #e74c3c;
 }
 
-.gitHire{
+/*.gitHire{
   position: absolute;
   background-color: rgba(231, 76, 60, 0.62);
   color: white;
@@ -87,9 +87,9 @@ a:active {
   height: 125px;
   animation: blinker 2s linear infinite;
   text-transform: uppercase;
-}
+}*/
 
-@keyframes blinker {  
+@keyframes blinker {
   50% { opacity: 0; }
 }
 
@@ -219,7 +219,3 @@ a:active {
 .searchBlock {
   margin-top: 20px;
 }
-
-
-
-
